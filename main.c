@@ -10,7 +10,7 @@ int main(int argc, char** argv)
         sum = f_1 + f_2;
         f_2 = f_1;
         f_1 = sum;
+        printf("%d : %d", i+2, sum);
     }
-
     return 0;
 }
