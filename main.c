@@ -10,6 +10,6 @@ int fib(int n)
 int main(int argc, char** argv)
 {
     int num_i = atoi(argv[1]);
-    prntf("%d\n", fib(num_i)); 
+    printf("%d\n", fib(num_i)); 
     return 0;
 }
