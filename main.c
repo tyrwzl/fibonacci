@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(int argc, char** argv)
 {
@@ -6,6 +7,7 @@ int main(int argc, char** argv)
     int f_2 = 1;
     int sum = 0;
 
+    int num_i = atoi(argv[1]);
     for (int i = 0; i < 10; ++i) {
         sum = f_1 + f_2;
         f_2 = f_1;
