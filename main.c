@@ -8,7 +8,7 @@ int main(int argc, char** argv)
     int sum = 0;
 
     int num_i = atoi(argv[1]);
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < num_i; ++i) {
         sum = f_1 + f_2;
         f_2 = f_1;
         f_1 = sum;
