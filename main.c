@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
-int fib(int n)
+double fib(double n)
 {
-    if (n < 2) return n;
-    return fib(n-1) + fib(n-2);
+    double	sqrt_5 = sqrtf( 5.0 );
+	return	( pow((( 1.0 + sqrt_5 ) * 0.5 ), n ) - pow((( 1.0 - sqrt_5 ) * 0.5 ), n )) / sqrt_5;
 }
 
 int main(int argc, char** argv)
